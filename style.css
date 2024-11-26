@@ -1,0 +1,90 @@
+body {
+    background-color: #1a1a2e;
+    color: #dfe6e9;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #00cec9, #0984e3);
+    padding: 0.8rem 1.5rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-link {
+    color: #dfe6e9 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #81ecec !important;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+h1, h3 {
+    color: #00cec9;
+    font-weight: 600;
+}
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #2f3542;
+    color: #dfe6e9;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    color: #00cec9;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #0984e3;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #74b9ff;
+}
+
+footer {
+    background-color: #162447;
+    color: #dfe6e9;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover svg {
+    transform: scale(1.1);
+}
